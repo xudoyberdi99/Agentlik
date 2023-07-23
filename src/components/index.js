@@ -1,0 +1,16 @@
+export {default as Navbar} from './Navbar.vue'
+export {default as TopBar} from './TopBar.vue'
+export {default as Slide} from './Slide.vue'
+export {default as AboutUs} from './AboutUs.vue'
+export {default as Partners} from './Partners.vue'
+export {default as Footers}  from './Footers.vue'
+export {default as LogoArea} from './LogoArea.vue'
+export {default as MainMenu} from './MainMenu.vue'
+export {default as NewsCard} from './NewsCard.vue'
+export {default as NewsDetail} from './NewsDetail.vue'
+export {default as AchievementsCard} from './AchievementsCard.vue'
+export {default as AchievementsDetail} from './AchievementsDetail.vue'
+export {default as BAMCard} from './BAMCard.vue'
+export {default as Subjects} from './Subjects.vue'
+
+
