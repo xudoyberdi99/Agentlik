@@ -1,28 +1,34 @@
 <template>
   <section v-show="visible" id="navbar" class="sticky-menu sticky" v-on:scroll="handleScroll">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row m-1">
-                <div class="col-md-3">
+                <div class="col-md-1">
                     <div class="logo">
-                     <div style="width: 200px; height: 40px;">
-                            <a href="/"><img src="@/img/logo2.png" alt="logo" @click="Home" style="width: 100%;"></a>
+                     <div>
+                            <a href="/"><img src="@/img/agentlik.png" alt="logo" @click="Home" style="width: 80px;"></a>
                         </div>
                     </div>
                 </div>         
-                <div class="col-md-9">
+                <div class="col-md-11">
                     <div class="menu-box d-flex justify-content-center">
                         <ul class="nav menu-nav" style="display: flex; justify-content: center; align-items: center;">
-                            <li class=" nav-item dropdown item active"><RouterLink class="nav-link" :to="{name:'home'}">Bosh sahifa</RouterLink></li>
-                            <li class=" nav-item dropdown item"><RouterLink class="nav-link" :to="{name:'documents'}">Normativ Hujjatlar</RouterLink></li>
-                            <li class=" nav-item dropdown"><a class="nav-link  item" href="/teacher">Bizning o'qituvchilar </a></li>
-                            <li class=" nav-item dropdown item"><RouterLink class="nav-link" :to="{name:'news'}">Yangiliklar</RouterLink></li>
-                            <li class=" nav-item dropdown item"><RouterLink class="nav-link" :to="{name:'achievements'}">Yutuqlarimiz</RouterLink></li>
-                            <li class=" nav-item dropdown item"><RouterLink class="nav-link" :to="{name:'price'}">To'lov</RouterLink></li>
-                            <li class=" nav-item dropdown item"><RouterLink class="nav-link" :to="{name:'bams'}">BAM</RouterLink></li>
-                            <li class=" nav-item dropdown item"><RouterLink class="nav-link" :to="{name:'partners'}">Hamkorlar</RouterLink></li>
-                            <li class=" nav-item dropdown"><a class="nav-link  item" href="/media">Media</a></li>
-                            <li class=" nav-item dropdown"><a class="nav-link  item" href="/mashgulotlar">Mashg'ulotlar jadvali</a></li>
-                            <li class=" nav-item dropdown item"><RouterLink class="nav-link" :to="{name:'courses'}">To'garaklar</RouterLink></li>           
+                          <li class="nav-item  active"><RouterLink class="nav-link" :to="{name:'home'}">Bosh sahifa</RouterLink></li>
+                          <li class="nav-item ">
+                            <RouterLink class="nav-link"  :to="{name:'documents'}">Moliya-iqtisod</RouterLink>
+                          </li>
+                          <!--                            <li class="nav-item dropdown"><a class="nav-link" href="/teacher">Axborot-tahlil va monitoring bo'limi </a></li>-->
+                          <li class="nav-item "><RouterLink class="nav-link" :to="{name:'news'}">Axborot-tahlil va monitoring</RouterLink></li>
+                          <li class="nav-item "><RouterLink class="nav-link" :to="{name:'news'}">Korrupsiyaga qarshi kurashish</RouterLink></li>
+                          <li class="nav-item "><RouterLink class="nav-link" :to="{name:'achievements'}">Maxsus ishlar</RouterLink></li>
+                          <li class="nav-item "><RouterLink class="nav-link" :to="{name:'price'}">Inson resurislarini rivojlantirish va boshqarish</RouterLink></li>
+                          <li class="nav-item "><RouterLink class="nav-link" :to="{name:'bams'}">Yuriskonsult</RouterLink></li>
+                          <li class="nav-item "><RouterLink class="nav-link" :to="{name:'bams'}">ijro intizomi</RouterLink></li>
+                          <li class="nav-item "><RouterLink class="nav-link" :to="{name:'bams'}">Namangan filiali</RouterLink></li>
+                          <li class="nav-item "><RouterLink class="nav-link" :to="{name:'bams'}">Gemologiya va qimmatliklarni ekspertiza qilish</RouterLink></li>
+                          <li class="nav-item "><RouterLink class="nav-link" :to="{name:'bams'}">Tog'-kon va affinaj korxonalar nazorati</RouterLink></li>
+                          <li class="nav-item "><RouterLink class="nav-link" :to="{name:'bams'}">Markaziy labaratoriya</RouterLink></li>
+                          <li class="nav-item "><RouterLink class="nav-link" :to="{name:'bams'}">Asillik darajasini belgilash va tamg'alash</RouterLink></li>
+                          <li class="nav-item "><RouterLink class="nav-link" :to="{name:'bams'}">Qimmatbaho zargarlik buyumlari</RouterLink></li>
                         </ul>
                     </div>
                 </div>
@@ -67,14 +73,15 @@ export default {
 }
 </script>
 
-<style>
-.item {
-    font-size: 15px;
-    font-weight:600;
+<style scoped>
+.nav-item {
+    font-size: 14px;
+    font-weight:500;
     text-transform: uppercase;
 }
 .nav-link {
     color: black;
+  padding: 8px 12px;
 }
 .nav-link:hover{
     color:green;
@@ -92,8 +99,11 @@ export default {
     height: 120px;
     padding-top: 18px;
     box-shadow: rgb(34 34 34) 0px 0px 20px -10px;
+  transition: all 10s linear;
+
 }
 .sticky {
     display: block;
+
 }
 </style>

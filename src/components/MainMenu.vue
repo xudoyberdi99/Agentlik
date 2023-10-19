@@ -1,25 +1,28 @@
 <template>
   <section class="main-menu">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
                 <div class="main-menu-box">
                     <div class="menu-box d-flex justify-content-center">
                         <ul class="nav menu-nav" style="display: flex; justify-content: center; align-items: center;">
-                            <li class="nav-item dropdown active"><RouterLink class="nav-link" :to="{name:'home'}">Bosh sahifa</RouterLink></li>
+                            <li class="nav-item  active"><RouterLink class="nav-link" :to="{name:'home'}">Bosh sahifa</RouterLink></li>
                             <li class="nav-item dropdown">
-                                <RouterLink class="nav-link"  :to="{name:'documents'}">Normativ Hujjatlar</RouterLink>
+                                <RouterLink class="nav-link"  :to="{name:'documents'}">Moliya-iqtisod</RouterLink>
                             </li>
-                            <li class="nav-item dropdown"><a class="nav-link" href="/teacher">Bizning o'qituvchilar </a></li>
-                            <li class="nav-item dropdown"><RouterLink class="nav-link" :to="{name:'news'}">Yangiliklar</RouterLink></li>
-                            <li class="nav-item dropdown"><RouterLink class="nav-link" :to="{name:'achievements'}">Yutuqlarimiz</RouterLink></li>
-                            <li class="nav-item dropdown"><RouterLink class="nav-link" :to="{name:'price'}">To'lov</RouterLink></li>
-                            <li class="nav-item dropdown"><RouterLink class="nav-link" :to="{name:'bams'}">BAM</RouterLink></li>
-                            <li class="nav-item dropdown"><RouterLink class="nav-link" :to="{name:'partners'}">Hamkorlar</RouterLink></li>
-                            <li class="nav-item dropdown"><a class="nav-link" href="/media">Media</a></li>
-                            <li class="nav-item dropdown"><a class="nav-link" href="/">Mashg'ulotlar jadvali</a></li>
-                            <li class="nav-item dropdown"><RouterLink class="nav-link" :to="{name:'courses'}">To'garaklar</RouterLink>
-                                <ul class="dropdown list-unstyled"></ul></li>
+<!--                            <li class="nav-item dropdown"><a class="nav-link" href="/teacher">Axborot-tahlil va monitoring bo'limi </a></li>-->
+                            <li class="nav-item "><RouterLink class="nav-link" :to="{name:'news'}">Axborot-tahlil va monitoring</RouterLink></li>
+                            <li class="nav-item "><RouterLink class="nav-link" :to="{name:'news'}">Korrupsiyaga qarshi kurashish</RouterLink></li>
+                            <li class="nav-item "><RouterLink class="nav-link" :to="{name:'achievements'}">Maxsus ishlar</RouterLink></li>
+                            <li class="nav-item "><RouterLink class="nav-link" :to="{name:'price'}">Inson resurislarini rivojlantirish va boshqarish</RouterLink></li>
+                            <li class="nav-item "><RouterLink class="nav-link" :to="{name:'bams'}">Yuriskonsult</RouterLink></li>
+                            <li class="nav-item "><RouterLink class="nav-link" :to="{name:'bams'}">ijro intizomi</RouterLink></li>
+                              <li class="nav-item "><RouterLink class="nav-link" :to="{name:'bams'}">Namangan filiali</RouterLink></li>
+                            <li class="nav-item "><RouterLink class="nav-link" :to="{name:'bams'}">Gemologiya va qimmatliklarni ekspertiza qilish</RouterLink></li>
+                            <li class="nav-item "><RouterLink class="nav-link" :to="{name:'bams'}">Tog'-kon va affinaj korxonalar nazorati</RouterLink></li>
+                            <li class="nav-item "><RouterLink class="nav-link" :to="{name:'bams'}">Markaziy labaratoriya</RouterLink></li>
+                            <li class="nav-item "><RouterLink class="nav-link" :to="{name:'bams'}">Asillik darajasini belgilash va tamg'alash</RouterLink></li>
+                            <li class="nav-item "><RouterLink class="nav-link" :to="{name:'bams'}">Qimmatbaho zargarlik buyumlari</RouterLink></li>
                         </ul>
 
                     </div>
@@ -49,7 +52,7 @@ components:{
     width: 100%;
     top: -20px;
     left: 0px;
-    padding: 0px 30px;
+    padding: 0px 10px;
     background: rgb(41, 197, 253);
     border-radius: 5px;
    
