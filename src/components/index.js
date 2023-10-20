@@ -12,5 +12,8 @@ export {default as AchievementsCard} from './AchievementsCard.vue'
 export {default as AchievementsDetail} from './AchievementsDetail.vue'
 export {default as BAMCard} from './BAMCard.vue'
 export {default as Subjects} from './Subjects.vue'
+export {default as InteractivService} from './InteractiveService.vue'
+export {default as LastNews} from './LastNews.vue'
+export {default as UsefullLinks} from './UsefulLinks.vue'
 
 
