@@ -48,19 +48,20 @@
     </div>
   </div>
 </template>
-<script setup>
-
+<script>
+export default {
+  methods: {
+    goToAboutPage() {
+      this.$router.push("/services");
+    },
+  },
+}
 </script>
 
 <style scoped>
 .text {
   color: #6A7584;
 }
-
-.groups {
-
-}
-
 .groups-item {
   padding: 30px;
 

@@ -1,6 +1,6 @@
 <template>
    <div class="bam-body">
-    <div class="title">BARKAMOL AVLOD MAKTABLARI</div>
+    <div class="title text-uppercase">Yuristkonsult</div>
     <div v-if='isloading' class="d-flex justify-content-center">
         <div class="spinner-border" role="status">
             <span class="visually-hidden">Loading...</span>
@@ -20,15 +20,6 @@ import {BAMCard} from '../components'
 import { Subjects } from '../components';
 import { mapState } from 'vuex';
 export default {
-    components:{
-        Subjects
-    },
-    data() {
-      return {
-        
-      }
-    },
-   
 components:{
     BAMCard,  
 },
@@ -53,6 +44,7 @@ components:{
     background-color: rgba(133,219,199,.12);
     margin-top: 150px;
     padding-bottom: 30px;
+  margin-bottom: 120px;
 }
 .bam-body .title {
     text-align: center;

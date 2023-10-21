@@ -1,15 +1,28 @@
 <template>
   <div class="price-body">
     <div class="container">
-        <div class="title" style="color: rgb(11, 133, 250);">To'lovlar</div>
-        <div class="price-about">“Barkamol avlod” bolalar maktablarida 
-            o‘qiganligi uchun ota-onalardan olinadigan to‘lovlar 
-            Vazirlar Mahkamasining 2021-yil 27-maydagi 331-sonli 
-            qarori asosida amalga oshiriladi. To‘lovlar oyiga bazaviy 
-            hisoblash miqdoriga nisbatan: texnika, konstruktorlik va 
-            modellashtirish yo‘nalishi 25 foiz, qolgan yo‘nalishlar 10 
-            foiz deb belgilangan. Bundan tashqari xo‘jalik hisobidagi 
-            to‘garaklar ham mavjud.
+        <div class="title" style="color: rgb(11, 133, 250);">Inson Resurislarini Rivojlantirish va boshqarish</div>
+        <div class="price-about">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Consectetur deserunt magni obcaecati quam sequi tempora totam.
+          Cupiditate facilis in maiores omnis quis quo, repudiandae similique?
+          Accusantium adipisci alias, assumenda autem cum delectus deleniti dicta
+          dolore dolorem dolorum esse eum, ex exercitationem fuga fugiat id in inventore
+          ibero, maxime minus modi necessitatibus nemo nihil nostrum nulla odio officiis
+          optio perferendis quam quas quasi quisquam quos sequi temporibus ut voluptates
+          voluptatum. A aliquid architecto asperiores blanditiis consequatur cum debitis
+          dignissimos doloremque doloribus ducimus enim eos et ex fugiat hic impedit in
+          inventore iusto magni nemo numquam obcaecati perspiciatis possimus quas quia
+          quisquam quo, quod repellat saepe sed similique soluta tenetur unde vel veritatis
+          voluptas voluptatibus? Accusantium animi consequuntur corporis distinctio,
+          st fugiat incidunt minima minus praesentium sequi? Dolores incidunt labore
+          magni nesciunt tenetur. Aperiam dolorem dolorum explicabo harum illum odio
+          ullam velit vitae. Laborum minus neque nobis odio placeat sequi tempore velit?
+          Aperiam at excepturi facilis fuga id nihil ratione sunt tenetur voluptas?
+          liquam assumenda consequatur deleniti dolorum eaque earum eveniet expedita,
+          illo in ipsa laborum, nemo nobis provident quaerat tempore vero voluptatum!
+          Distinctio dolores explicabo pariatur sint velit. Ad asperiores culpa dignissimos
+          est incidunt laboriosam molestias nam optio, pariatur perspiciatis sunt.
         </div>
     </div>
   </div>
@@ -41,7 +54,6 @@ export default {
     width: 96%;
     margin-left: 2%;
     padding: 22px;
-    text-align: center;
     background-color: #fa9937;
     color: #fff;
     font-size: 20px;

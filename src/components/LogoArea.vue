@@ -13,7 +13,7 @@
                     <div class="logo-contact-box d-flex justify-content-end align-items-center">
                         <div class="emcontact-box d-flex align-items-center">
                             <div class="icon">
-                              <img src="../img/phone.png" alt="" style="width:  97%;">
+                              <img src="../img/phone.png" alt="" style="width:90%;">
                             </div>
                             <div class="box-content">
                                 <p>Biz bilan bog'lanish</p>
@@ -22,7 +22,7 @@
                         </div>
                         <div class="emcontact-box d-flex">
                           <div class="icon">
-                            <img src="../img/email.png" alt="" style="width: 100%;background-color: #1c7430; color: white; border-radius: 50%;" class="mt-1">
+                            <img src="../img/email.png" alt="" style="width: 90%;" class="mt-1">
                           </div>
                             <div class="box-content">
                                 <p>Elektron pochtamiz</p><span>testlar@gmail.com</span>
@@ -61,7 +61,9 @@ methods:{
     margin-left: 10px;
     margin-right: 30px;
 }
-
+.logo-area{
+  background-color: #F6F9F8;
+}
 .icon {
   height: 50px;
   width: 50px;

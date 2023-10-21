@@ -1,35 +1,22 @@
 <template>
-  <section class="newsDetail">
-   <div v-if='isloading' class="d-flex justify-content-center">
-        <div class="spinner-border" role="status">
-            <span class="visually-hidden">Loading...</span>
-        </div>
+  <div class="container-fluid px-5 pt-5 my-5">
+    <div class="row my-5">
+      <div class="col-md-9 px-5">
+        <NewsDetail></NewsDetail>
+      </div>
+      <div class="col-md-3">
+        <Aside></Aside>
+      </div>
     </div>
-  <NewsDetail v-else />
-</section>
+  </div>
 </template>
-
 <script>
-import { NewsDetail } from "../components";
-import { mapState } from "vuex";
+import NewsDetail from "@/components/NewsDetail.vue";
+import Aside from "@/layout/Aside.vue";
 export default {
-  components:{
-    NewsDetail,
-  },
-mounted(){
-  this.$store.dispatch('newsDetail',this.$route.params.id)
-},
-computed:{
-  ...mapState({
-    isloading: state=>state.news.isloading,
-  }),
-}
+  components: { Aside, NewsDetail}
 }
 </script>
+<style>
 
-<style scoped>
-.newsDetail {
-  margin-top: 150px;
-  padding-bottom: 20px;
-}
 </style>

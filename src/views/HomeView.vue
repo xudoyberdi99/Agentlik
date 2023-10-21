@@ -1,10 +1,9 @@
 <template>
     <Slide />
-<!--    <AboutUs />-->
-    <!-- <Partners /> -->
 <InteractivService />
   <LastNews />
   <UsefullLinks />
+  <Partners />
 </template>
 
 <script>

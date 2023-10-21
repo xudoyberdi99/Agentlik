@@ -8,4 +8,9 @@ export {default as AchievementsDetailView} from './AchievementsDetailView.vue'
 export {default as PriceView} from './PriceView.vue'
 export {default as BAMView} from './BAMView.vue'
 export {default as CoursesView} from './CoursesView.vue'
+export {default as InteractivService} from './InteractiveServiceView.vue'
+export {default as LastNews} from './LastNewsView.vue'
+export {default as UseFulLinks} from './UseFullinksView.vue'
+
+
 
