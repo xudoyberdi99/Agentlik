@@ -19,7 +19,7 @@
                     <ul class="list-unstyled list-inline bar-lang">
                         <li class="list-inline-item">
                             <div class="dropdown">
-                                <a class="dropdown-toggle" aria-haspopup="true" aria-expanded="false"><img src="/img/uzb.jpg" alt=""> Uzbek<i class="las la-angle-down"></i></a>
+                                <a class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Uzbek<i class="las la-angle-down"></i></a>
                             </div>
                         </li>
                     </ul>
